@@ -1,0 +1,30 @@
+
+
+V1:
+	shasum -a 1 hola.c
+	34475b0618a5e415a742644b1294ec36af8ce8b1 *hola.c
+
+V2: 
+	shasum -a 256 hola.c
+	644927bdb6e9110ed04892db4eda84947ecc63c29e9e780f7924af4c25508517 *hola.c
+
+
+	
+V1.1
+	shasum -a 1 hola.c
+	4e0342f690a5a5e52ee97b95294b5ca6c9ec73fd *hola.c
+
+V2.1
+	shasum -a 256 hola.c
+	480dfb1d0238f336cd86ead299e06045360000f6505770da53c0ebf4109db3b5 *hola.c
+
+	
+Retirando el cambio en ambas versiones 
+	
+	shasum -a 1 hola.c
+	34475b0618a5e415a742644b1294ec36af8ce8b1 *hola.c
+
+
+	shasum -a 256 hola.c
+	644927bdb6e9110ed04892db4eda84947ecc63c29e9e780f7924af4c25508517 *hola.c
+
